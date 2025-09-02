@@ -19,6 +19,8 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
     "prettier.configPath": "./prettier.config.js",
     "workbench.iconTheme": "material-icon-theme"
 }

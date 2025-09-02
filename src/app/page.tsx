@@ -3,8 +3,8 @@
 import React, { useEffect } from 'react';
 import { BsCircleHalf } from 'react-icons/bs';
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement } from '../store/slices/counterSlice';
-import { RootState } from '../store/store';
+import { increment, decrement } from '@/store/slices/counterSlice';
+import { RootState } from '@/store/store';
 
 const Home = (): React.JSX.Element => {
     const count = useSelector((state: RootState) => state.counterReducer);
